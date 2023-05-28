@@ -1,0 +1,1477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Tool_DeleteCaption" xml:space="preserve">
+    <value>删除{0}</value>
+  </data>
+  <data name="Tool_DeleteMessage" xml:space="preserve">
+    <value>确定要删除 {0} "{1}" 吗?</value>
+  </data>
+  <data name="HeaderPanel_ApplyTemplate" xml:space="preserve">
+    <value>应用模板</value>
+  </data>
+  <data name="HeaderPanel_SaveAsTemplate" xml:space="preserve">
+    <value>另存为模板</value>
+  </data>
+  <data name="HeaderPanel_SetAsDefault" xml:space="preserve">
+    <value>设定为默认</value>
+  </data>
+  <data name="HeaderPanel_UnsetAsDefault" xml:space="preserve">
+    <value>撤销默认</value>
+  </data>
+  <data name="LineEditor_AddRuleButton" xml:space="preserve">
+    <value>添加规则</value>
+  </data>
+  <data name="StyleOption_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="StyleOption_DashedLength" xml:space="preserve">
+    <value>虚线长度</value>
+  </data>
+  <data name="LineEditor_DeleteRuleCaption" xml:space="preserve">
+    <value>删除规则</value>
+  </data>
+  <data name="LineEditor_DeleteRuleMessage" xml:space="preserve">
+    <value>确定要删除这个规则吗?</value>
+  </data>
+  <data name="LineRule_From" xml:space="preserve">
+    <value>起始点</value>
+  </data>
+  <data name="LineEditor_InfoSelectFrom" xml:space="preserve">
+    <value>选择此段落的起始点</value>
+  </data>
+  <data name="LineEditor_InfoSelectTo" xml:space="preserve">
+    <value>选择此段落的终止点</value>
+  </data>
+  <data name="LineEditor_DeleteCaptionDescription" xml:space="preserve">
+    <value>线段</value>
+  </data>
+  <data name="LineEditor_Lines" xml:space="preserve">
+    <value>线段</value>
+  </data>
+  <data name="StyleOption_Offset" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="StyleOption_SpaceLength" xml:space="preserve">
+    <value>间隔长度</value>
+  </data>
+  <data name="Editor_Style" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="LineRule_To" xml:space="preserve">
+    <value>终止点</value>
+  </data>
+  <data name="LineRule_IntersectWith" xml:space="preserve">
+    <value>与 {0} 相交</value>
+  </data>
+  <data name="LineRule_SelfEdgePoint" xml:space="preserve">
+    <value>节点端点 {0}</value>
+  </data>
+  <data name="LineStyle_Dashed" xml:space="preserve">
+    <value>虚线</value>
+  </data>
+  <data name="LineStyle_DoubleDashed" xml:space="preserve">
+    <value>双虚线</value>
+  </data>
+  <data name="LineStyle_DoubleSolid" xml:space="preserve">
+    <value>双实线</value>
+  </data>
+  <data name="LineStyle_Solid" xml:space="preserve">
+    <value>实线</value>
+  </data>
+  <data name="Mod_Description" xml:space="preserve">
+    <value>使用此工具来轻松创建交叉口地标线。</value>
+  </data>
+  <data name="Panel_NodeCaption" xml:space="preserve">
+    <value>编辑节点 #{0} 的地标线</value>
+  </data>
+  <data name="PointEditor_DeleteCaptionDescription" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="PointEditor_Offset" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="PointEditor_Points" xml:space="preserve">
+    <value>端点</value>
+  </data>
+  <data name="SelectPanel_NotSet" xml:space="preserve">
+    <value>未设置</value>
+  </data>
+  <data name="Settings_ShortcutAddNewLineRule" xml:space="preserve">
+    <value>添加新规则</value>
+  </data>
+  <data name="Settings_ShortcutDeleteAllNodeLines" xml:space="preserve">
+    <value>删除选中节点的所有地标线</value>
+  </data>
+  <data name="Settings_DeleteMarkingButton" xml:space="preserve">
+    <value>删除本地图内的所有地标线</value>
+  </data>
+  <data name="Settings_DeleteMarkingCaption" xml:space="preserve">
+    <value>删除所有地标线</value>
+  </data>
+  <data name="Settings_DeleteMarkingMessage" xml:space="preserve">
+    <value>确定要删除全图所有的地标线吗?</value>
+  </data>
+  <data name="Settings_DumpMarkingButton" xml:space="preserve">
+    <value>将地标线信息导出到文件</value>
+  </data>
+  <data name="Settings_CopyPathToClipboard" xml:space="preserve">
+    <value>复制路径到剪贴板</value>
+  </data>
+  <data name="Settings_DumpMarkingCaption" xml:space="preserve">
+    <value>导出地标线信息</value>
+  </data>
+  <data name="Settings_DumpMessageFailed" xml:space="preserve">
+    <value>导出失败</value>
+  </data>
+  <data name="Settings_DumpMessageSuccess" xml:space="preserve">
+    <value>导出成功</value>
+  </data>
+  <data name="Settings_RestoreMarkingButton" xml:space="preserve">
+    <value>从文件中恢复地标线信息</value>
+  </data>
+  <data name="Settings_RestoreMarkingCaption" xml:space="preserve">
+    <value>恢复标记数据</value>
+  </data>
+  <data name="Settings_RestoreMarkingMessage" xml:space="preserve">
+    <value>确定要恢复数据吗?
+恢复后的数据会覆盖全图既存的标记。</value>
+  </data>
+  <data name="Settings_RestoreMarkingMessageFailed" xml:space="preserve">
+    <value>标记信息恢复失败</value>
+  </data>
+  <data name="Settings_RestoreMarkingMessageSuccess" xml:space="preserve">
+    <value>标记信息恢复成功</value>
+  </data>
+  <data name="Settings_QuickRuleSetup" xml:space="preserve">
+    <value>快速初始化新规则</value>
+  </data>
+  <data name="Settings_RenderDistance" xml:space="preserve">
+    <value>渲染距离</value>
+  </data>
+  <data name="Settings_ShowDeleteWarnings" xml:space="preserve">
+    <value>删除前弹窗确认</value>
+  </data>
+  <data name="TemplateEditor_DeleteCaptionDescription" xml:space="preserve">
+    <value>模版</value>
+  </data>
+  <data name="TemplateEditor_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="TemplateEditor_Templates" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Template_NewTemplate" xml:space="preserve">
+    <value>新建模板</value>
+  </data>
+  <data name="Tool_ClearMarkingsCaption" xml:space="preserve">
+    <value>清除节点的地标线</value>
+  </data>
+  <data name="Tool_ClearMarkingsMessage" xml:space="preserve">
+    <value>确定要删除节点 #{0} 的所有地标线吗?</value>
+  </data>
+  <data name="Tool_InfoCreateLine" xml:space="preserve">
+    <value>点击以创建线段</value>
+  </data>
+  <data name="Tool_InfoDeleteLine" xml:space="preserve">
+    <value>点击可擦除线段</value>
+  </data>
+  <data name="Tool_InfoHoverNode" xml:space="preserve">
+    <value>节点 #{0}
+点击以编辑地标线</value>
+  </data>
+  <data name="Tool_SelectInfo" xml:space="preserve">
+    <value>选择节点或段落以编辑地标线</value>
+  </data>
+  <data name="Tool_InfoSelectLineEndPoint" xml:space="preserve">
+    <value>点选终点来创建线</value>
+  </data>
+  <data name="Tool_InfoSelectLineStartPoint" xml:space="preserve">
+    <value>点选起始点来创建/擦除线段</value>
+  </data>
+  
+  <data name="Settings_Restore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="StyleOption_Invert" xml:space="preserve">
+    <value>翻转</value>
+  </data>
+  <data name="StyleOption_Width" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="LineStyle_SolidAndDashed" xml:space="preserve">
+    <value>虚实线</value>
+  </data>
+  <data name="LineStyle_StopSolid" xml:space="preserve">
+    <value>实线</value>
+  </data>
+  <data name="Tool_InfoDeleteStopLine" xml:space="preserve">
+    <value>点击以擦除停止线</value>
+  </data>
+  <data name="Tool_InfoCreateStopLine" xml:space="preserve">
+    <value>点击以创建停止线</value>
+  </data>
+  <data name="FillerEditor_Fillers" xml:space="preserve">
+    <value>填充图案</value>
+  </data>
+  <data name="FillerEditor_DeleteCaptionDescription" xml:space="preserve">
+    <value>填充图案</value>
+  </data>
+  <data name="FillerStyle_Stripe" xml:space="preserve">
+    <value>条纹线</value>
+  </data>
+  <data name="FillerStyle_Grid" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="LineStyle_StopDashed" xml:space="preserve">
+    <value>虚线</value>
+  </data>
+  <data name="StyleOption_Step" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="StyleOption_Angle" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="StyleOption_LinesOffset" xml:space="preserve">
+    <value>从边线回缩</value>
+  </data>
+  <data name="Tool_InfoFillerClickStart" xml:space="preserve">
+    <value>点击来开始创建填充</value>
+  </data>
+  <data name="Tool_InfoFillerClickEnd" xml:space="preserve">
+    <value>点击以完成创建填充</value>
+  </data>
+  <data name="Tool_InfoFillerClickNext" xml:space="preserve">
+    <value>点击以选择填充区域下一端点</value>
+  </data>
+  <data name="Tool_InfoFillerSelectStart" xml:space="preserve">
+    <value>选择填充区域起点</value>
+  </data>
+  <data name="Tool_InfoFillerSelectNext" xml:space="preserve">
+    <value>选择填充区域下一端点</value>
+  </data>
+  <data name="StyleOption_MedianOffset" xml:space="preserve">
+    <value>往中心回缩</value>
+  </data>
+  <data name="Editor_ColorCopy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Editor_ColorPaste" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="Editor_ColorDefault" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="FillerStyle_Solid" xml:space="preserve">
+    <value>实线</value>
+  </data>
+  
+  
+  <data name="Settings_ShortcutAddNewFiller" xml:space="preserve">
+    <value>创建新填充图案</value>
+  </data>
+  <data name="LineStyle_StopDouble" xml:space="preserve">
+    <value>双实线</value>
+  </data>
+  <data name="LineStyle_StopDoubleDashed" xml:space="preserve">
+    <value>双虚线</value>
+  </data>
+  <data name="HeaderPanel_StyleCopy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="HeaderPanel_StylePaste" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="FillerStyle_Chevron" xml:space="preserve">
+    <value>锯齿形</value>
+  </data>
+  <data name="StyleOption_AngleBetween" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="StyleOption_Turn" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="LineEditor_EmptyMessage" xml:space="preserve">
+    <value>此交叉路口没有标线。
+连接端点以创建标线。</value>
+  </data>
+  <data name="FillerEditor_EmptyMessage" xml:space="preserve">
+    <value>此交叉路口没有填充图案。
+按住{0}或点按 {1} 以创建填充图案.</value>
+  </data>
+  <data name="TemplateEditor_EmptyMessage" xml:space="preserve">
+    <value>没有模板可选。
+在线段或填充格式上点击 «{0}» 来创建新模板。</value>
+  </data>
+  <data name="EarlyAccess_ActivateButton" xml:space="preserve">
+    <value>使用密钥激活</value>
+  </data>
+  <data name="EarlyAccess_ActivationFailed" xml:space="preserve">
+    <value>激活失败</value>
+  </data>
+  <data name="EarlyAccess_ActivationSuccess" xml:space="preserve">
+    <value>激活成功</value>
+  </data>
+  <data name="EarlyAccess_FunctionUnavailableCaption" xml:space="preserve">
+    <value>该功能不可用。</value>
+  </data>
+  <data name="EarlyAccess_FunctionUnavailableMessage" xml:space="preserve">
+    <value>此功能 “{0}” 目前只供Patreon抢先体验用户使用。
+一段时间后会面向大众开放。
+加入抢先体验后，你可以支持作者开发本mod。</value>
+  </data>
+  <data name="EarlyAccess_GetButton" xml:space="preserve">
+    <value>获取抢先访问</value>
+  </data>
+  <data name="EarlyAccess_ID" xml:space="preserve">
+    <value>您的激活ID</value>
+  </data>
+  <data name="EarlyAccess_Key" xml:space="preserve">
+    <value>访问密钥</value>
+  </data>
+  <data name="EarlyAccess_KeyActivateButton" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="EarlyAccess_KeyActivationCaption" xml:space="preserve">
+    <value>激活抢先体验</value>
+  </data>
+  <data name="EarlyAccess_KeyActivationMessage" xml:space="preserve">
+    <value>需要激活码才可获取抢先体验</value>
+  </data>
+  <data name="EarlyAccess_KeyCancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="EarlyAccess_KeyNotValid" xml:space="preserve">
+    <value>输入的激活码无效。</value>
+  </data>
+  <data name="EarlyAccess_LinkInProcess" xml:space="preserve">
+    <value>连接中……</value>
+  </data>
+  <data name="EarlyAccess_LinkPatreonButton" xml:space="preserve">
+    <value>链接到Patreon帐户</value>
+  </data>
+  <data name="EarlyAccess_LinkPatreonCaption" xml:space="preserve">
+    <value>链接到Patreon帐户</value>
+  </data>
+  <data name="EarlyAccess_PatreonCantLinked" xml:space="preserve">
+    <value>Patreon账号无法连接，因为您据否了连接请求。</value>
+  </data>
+  <data name="EarlyAccess_PatreonLinkedError" xml:space="preserve">
+    <value>连接账号时出错，请重试。</value>
+  </data>
+  <data name="EarlyAccess_PatreonLinkedNotMember" xml:space="preserve">
+    <value>Pateron账号已连接，但没有抢先体验权限。</value>
+  </data>
+  <data name="EarlyAccess_PatreonRedirect" xml:space="preserve">
+    <value>现在可以关闭此窗口并返回游戏。</value>
+  </data>
+  <data name="EarlyAccess_ProcessCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="EarlyAccess_Status" xml:space="preserve">
+    <value>状态：{0}</value>
+  </data>
+  <data name="EarlyAccess_StatusActivated" xml:space="preserve">
+    <value>已激活</value>
+  </data>
+  <data name="EarlyAccess_StatusNotActivated" xml:space="preserve">
+    <value>未激活</value>
+  </data>
+  <data name="EarlyAccess_ThanksMessage" xml:space="preserve">
+    <value>多谢支持。全部功能已为您启用。</value>
+  </data>
+  <data name="Settings_EarlyAccess" xml:space="preserve">
+    <value>抢先体验版本</value>
+  </data>
+  <data name="StyleOption_Alignment" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="Tool_InfoCreateNormalLine" xml:space="preserve">
+    <value>点击以创建垂直线</value>
+  </data>
+  <data name="Tool_InfoDeleteNormalLine" xml:space="preserve">
+    <value>点击以擦除垂直线</value>
+  </data>
+  <data name="CrosswalkStyle_Zebra" xml:space="preserve">
+    <value>斑马线</value>
+  </data>
+  <data name="CrosswalkStyle_Existent" xml:space="preserve">
+    <value>现存人行横道</value>
+  </data>
+  <data name="StyleOption_OffsetBetween" xml:space="preserve">
+    <value>间隔大小</value>
+  </data>
+  <data name="CrosswalkEditor_Crosswalks" xml:space="preserve">
+    <value>人行横道</value>
+  </data>
+  <data name="CrosswalkEditor_EmptyMessage" xml:space="preserve">
+    <value>此交叉路口没有人行道。
+按住{0}以创建人行道。</value>
+  </data>
+  <data name="CrossWalkEditor_DeleteCaptionDescription" xml:space="preserve">
+    <value>人行横道</value>
+  </data>
+  <data name="CrosswalkStyle_Group" xml:space="preserve">
+    <value>人行横道</value>
+  </data>
+  <data name="FillerStyle_Group" xml:space="preserve">
+    <value>填充图案</value>
+  </data>
+  <data name="LineStyle_RegularLinesGroup" xml:space="preserve">
+    <value>普通标线</value>
+  </data>
+  <data name="LineStyle_StopLinesGroup" xml:space="preserve">
+    <value>停止线</value>
+  </data>
+  <data name="Settings_GroupLines" xml:space="preserve">
+    <value>线段整合成组</value>
+  </data>
+  <data name="Settings_GroupTemplates" xml:space="preserve">
+    <value>模板整合成组</value>
+  </data>
+  <data name="Tool_InfoCreateCrosswalk" xml:space="preserve">
+    <value>点击以创建人行横道</value>
+  </data>
+  <data name="Tool_InfoDeleteCrosswalk" xml:space="preserve">
+    <value>点击以擦除人行横道</value>
+  </data>
+  <data name="Settings_GroupTemplatesByStyle" xml:space="preserve">
+    <value>按样式</value>
+  </data>
+  <data name="Settings_GroupTemplatesByType" xml:space="preserve">
+    <value>按类型</value>
+  </data>
+  <data name="CrosswalkStyle_DoubleZebra" xml:space="preserve">
+    <value>双斑马线</value>
+  </data>
+  <data name="StyleOption_LineWidth" xml:space="preserve">
+    <value>线条宽度</value>
+  </data>
+  <data name="StyleOption_OffsetAfter" xml:space="preserve">
+    <value>从后方偏移</value>
+  </data>
+  <data name="StyleOption_OffsetBefore" xml:space="preserve">
+    <value>从前方偏移</value>
+  </data>
+  <data name="StyleOption_ParallelToLanes" xml:space="preserve">
+    <value>与车道平行</value>
+  </data>
+  <data name="CrosswalkStyle_ParallelSolidLines" xml:space="preserve">
+    <value>平行实线</value>
+  </data>
+  <data name="CrosswalkEditor_LeftBorder" xml:space="preserve">
+    <value>左边界</value>
+  </data>
+  <data name="CrosswalkEditor_RightBorder" xml:space="preserve">
+    <value>右边界</value>
+  </data>
+  <data name="CrosswalkEditor_InfoSelectLeftBorder" xml:space="preserve">
+    <value>选择人行横道左边界</value>
+  </data>
+  <data name="CrosswalkEditor_InfoSelectRightBorder" xml:space="preserve">
+    <value>选择人行横道右边界</value>
+  </data>
+  <data name="Settings_GroupPointsOverlay" xml:space="preserve">
+    <value>显示节点归类</value>
+  </data>
+  <data name="Settings_GroupPointsArrangeCircle" xml:space="preserve">
+    <value>以圆圈表示归类</value>
+  </data>
+  <data name="Settings_GroupPointsArrangeLine" xml:space="preserve">
+    <value>以线段表示归类</value>
+  </data>
+  <data name="LineEditor_RuleOverlappedWarning" xml:space="preserve">
+    <value>此规则与另一规则重突。
+请检查规则的起点与终点。</value>
+  </data>
+  <data name="LineRule_LeftBorder" xml:space="preserve">
+    <value>人行横道左边界</value>
+  </data>
+  <data name="LineRule_RightBorder" xml:space="preserve">
+    <value>人行横道右边界</value>
+  </data>
+  <data name="CrosswalkStyle_ResetBorder" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="Tool_InfoSelectCrosswalkEndPoint" xml:space="preserve">
+    <value>选择端点</value>
+  </data>
+  <data name="Tool_InfoSelectCrosswalkStartPoint" xml:space="preserve">
+    <value>点选起始点
+来创建/删除人行横道</value>
+  </data>
+  <data name="CrosswalkStyle_ParallelDashedLines" xml:space="preserve">
+    <value>平行虚线</value>
+  </data>
+  <data name="CrosswalkStyle_Ladder" xml:space="preserve">
+    <value>阶梯式</value>
+  </data>
+  <data name="HeaderPanel_NoTemplates" xml:space="preserve">
+    <value>没有模板</value>
+  </data>
+  <data name="CrosswalkStyle_Solid" xml:space="preserve">
+    <value>实线</value>
+  </data>
+  <data name="LineStyle_CrosswalkLinesGroup" xml:space="preserve">
+    <value>人行横道线</value>
+  </data>
+  <data name="CrossWalkEditor_DeleteMessageDescription" xml:space="preserve">
+    <value>人行横道</value>
+  </data>
+  <data name="FillerEditor_DeleteMessageDescription" xml:space="preserve">
+    <value>填充图案</value>
+  </data>
+  <data name="LineEditor_DeleteMessageDescription" xml:space="preserve">
+    <value>线段</value>
+  </data>
+  <data name="PointEditor_DeleteMessageDescription" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="TemplateEditor_DeleteMessageDescription" xml:space="preserve">
+    <value>模版</value>
+  </data>
+  
+  <data name="Mod_LoadFailed" xml:space="preserve">
+    <value>导入完毕，但出现了以下错误：
+ {0} 个交叉口的地标线导入失败</value>
+  </data>
+  <data name="CrosswalkStyle_ChessBoard" xml:space="preserve">
+    <value>棋盘格</value>
+  </data>
+  <data name="StyleOption_LineCount" xml:space="preserve">
+    <value>线条数</value>
+  </data>
+  <data name="StyleOption_SharkToothBase" xml:space="preserve">
+    <value>三角形底边长</value>
+  </data>
+  <data name="StyleOption_SharkToothHeight" xml:space="preserve">
+    <value>三角形高度</value>
+  </data>
+  <data name="StyleOption_SharkToothSpace" xml:space="preserve">
+    <value>三角形间隙</value>
+  </data>
+  <data name="StyleOption_SquareSide" xml:space="preserve">
+    <value>方形边长</value>
+  </data>
+  <data name="LineStyle_SharkTeeth" xml:space="preserve">
+    <value>三角式</value>
+  </data>
+  <data name="LineStyle_StopSharkTeeth" xml:space="preserve">
+    <value>三角式</value>
+  </data>
+  <data name="LineStyle_StopSolidAndDashed" xml:space="preserve">
+    <value>虚实线</value>
+  </data>
+  <data name="Panel_ClearMarking" xml:space="preserve">
+    <value>清除标记</value>
+  </data>
+  <data name="Panel_CopyMarking" xml:space="preserve">
+    <value>复制标记</value>
+  </data>
+  <data name="Panel_PasteMarking" xml:space="preserve">
+    <value>粘贴标记</value>
+  </data>
+  <data name="Tool_PasteMarkingsCaption" xml:space="preserve">
+    <value>粘贴标记</value>
+  </data>
+  <data name="Tool_PasteMarkingsMessage" xml:space="preserve">
+    <value>确定要粘贴标记吗?</value>
+  </data>
+  <data name="Settings_CrosswalksModifier" xml:space="preserve">
+    <value>人行横道修饰键</value>
+  </data>
+  <data name="Settings_FillersModifier" xml:space="preserve">
+    <value>填充图案修饰键</value>
+  </data>
+  <data name="Settings_RegularLinesModifier" xml:space="preserve">
+    <value>普通标线修饰键</value>
+  </data>
+  <data name="Settings_StopLinesModifier" xml:space="preserve">
+    <value>停止线修饰键</value>
+  </data>
+  <data name="Settings_StyleModifierNotSet" xml:space="preserve">
+    <value>未设置</value>
+  </data>
+  <data name="Settings_StyleModifierWithout" xml:space="preserve">
+    <value>无修饰键</value>
+  </data>
+  <data name="Settings_ShowDeleteWarningsAlways" xml:space="preserve">
+    <value>总是显示</value>
+  </data>
+  <data name="Settings_ShowDeleteWarningsOnlyDependences" xml:space="preserve">
+    <value>只有其他标线受到影响时弹窗</value>
+  </data>
+  <data name="Tool_DeleteDependence" xml:space="preserve">
+    <value>以下受影响的部分也会被擦除</value>
+  </data>
+  <data name="Tool_DeleteDependenceCrosswalkBorders" xml:space="preserve">
+    <value>人行横道边界 - {0}</value>
+  </data>
+  <data name="Tool_DeleteDependenceCrosswalks" xml:space="preserve">
+    <value>人行横道 - {0}</value>
+  </data>
+  <data name="Tool_DeleteDependenceFillers" xml:space="preserve">
+    <value>填充 - {0}</value>
+  </data>
+  <data name="Tool_DeleteDependenceLines" xml:space="preserve">
+    <value>线段 - {0}</value>
+  </data>
+  <data name="Tool_DeleteDependenceRules" xml:space="preserve">
+    <value>规则 - {0}</value>
+  </data>
+  <data name="Settings_BackupTab" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="Settings_DisplayAndUsage" xml:space="preserve">
+    <value>界面及使用</value>
+  </data>
+  <data name="Settings_Groupings" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="Settings_ShortcutsAndModifiersTab" xml:space="preserve">
+    <value>快捷键与修饰键</value>
+  </data>
+  <data name="HeaderPanel_Duplicate" xml:space="preserve">
+    <value>重复</value>
+  </data>
+  <data name="Template_DuplicateTemplateSuffix" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="StyleOption_Edge" xml:space="preserve">
+    <value>边界</value>
+  </data>
+  <data name="StyleOption_StartingFrom" xml:space="preserve">
+    <value>起始点</value>
+  </data>
+  <data name="StyleOption_Vertex" xml:space="preserve">
+    <value>顶点</value>
+  </data>
+  <data name="Settings_ShortcutResetPointsOffset" xml:space="preserve">
+    <value>重置全部端点偏移</value>
+  </data>
+  <data name="Tool_ResetOffsetsCaption" xml:space="preserve">
+    <value>重置全部端点偏移</value>
+  </data>
+  <data name="Tool_ResetOffsetsMessage" xml:space="preserve">
+    <value>确定要重置 #{0} 全部的端点偏移吗?</value>
+  </data>
+  <data name="Tool_InfoRoadsDrag" xml:space="preserve">
+    <value>长按并拖移圆圈以设置道路排序
+点击圆圈来编辑道路节点排序</value>
+  </data>
+  <data name="Tool_InfoRoadsDrop" xml:space="preserve">
+    <value>将圆圈放进或移出目标，来设置或取消道路排序</value>
+  </data>
+  <data name="Settings_ShortcutCopyMarking" xml:space="preserve">
+    <value>复制标记</value>
+  </data>
+  <data name="Settings_ShortcutPasteMarking" xml:space="preserve">
+    <value>粘贴标记</value>
+  </data>
+  <data name="Tool_InfoInverseOrder" xml:space="preserve">
+    <value>逆向排序</value>
+  </data>
+  <data name="Tool_InfoTurnClockwise" xml:space="preserve">
+    <value>顺时针旋转</value>
+  </data>
+  <data name="Tool_InfoTurnСounterClockwise" xml:space="preserve">
+    <value>逆时针旋转</value>
+  </data>
+  <data name="StyleOption_AlignmentCenter" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="StyleOption_AlignmentLeft" xml:space="preserve">
+    <value>向左</value>
+  </data>
+  <data name="StyleOption_AlignmentRight" xml:space="preserve">
+    <value>向右</value>
+  </data>
+  <data name="TemplateEditor_UnnamedTemplate" xml:space="preserve">
+    <value>未命名模板</value>
+  </data>
+  <data name="TemplateEditor_NameExistCaption" xml:space="preserve">
+    <value>名称已被占用</value>
+  </data>
+  <data name="TemplateEditor_NameExistMessage" xml:space="preserve">
+    <value>模板名称 "{0}" 已被其它模板占用。
+确定要多个模板使用这个命名吗？</value>
+  </data>
+  <data name="Settings_BackupMarking" xml:space="preserve">
+    <value>备份标记</value>
+  </data>
+  <data name="Settings_BackupTemplates" xml:space="preserve">
+    <value>备份模板</value>
+  </data>
+  <data name="Settings_DeleteTemplatesButton" xml:space="preserve">
+    <value>删除所有模板</value>
+  </data>
+  <data name="Settings_DeleteTemplatesCaption" xml:space="preserve">
+    <value>删除所有模板</value>
+  </data>
+  <data name="Settings_DeleteTemplatesMessage" xml:space="preserve">
+    <value>确定要删除所有模板吗?</value>
+  </data>
+  <data name="Settings_DumpTemplatesButton" xml:space="preserve">
+    <value>导出模板到文件</value>
+  </data>
+  <data name="Settings_DumpTemplatesCaption" xml:space="preserve">
+    <value>导出模板</value>
+  </data>
+  <data name="Settings_RestoreTemplatesButton" xml:space="preserve">
+    <value>从文件中恢复模板。</value>
+  </data>
+  <data name="Settings_RestoreTemplatesCaption" xml:space="preserve">
+    <value>恢复模板</value>
+  </data>
+  <data name="Settings_RestoreTemplatesMessage" xml:space="preserve">
+    <value>确定要恢复模板吗?
+恢复后的模板会覆盖既存的模板。</value>
+  </data>
+  <data name="Settings_RestoreTemplatesMessageFailed" xml:space="preserve">
+    <value>模板恢复失败</value>
+  </data>
+  <data name="Settings_RestoreTemplatesMessageSuccess" xml:space="preserve">
+    <value>模板恢复成功</value>
+  </data>
+  <data name="Tool_Apply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Tool_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="Tool_EndPasteOrderCaption" xml:space="preserve">
+    <value>退出粘贴模式</value>
+  </data>
+  <data name="Tool_EndPasteOrderMessage" xml:space="preserve">
+    <value>确定要退出粘贴模式并应用粘贴吗？</value>
+  </data>
+  <data name="Tool_NotApply" xml:space="preserve">
+    <value>不应用</value>
+  </data>
+  <data name="Tool_InfoPasteApply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Tool_infoPasteNotApply" xml:space="preserve">
+    <value>不应用</value>
+  </data>
+  <data name="Tool_InfoPasteReset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="Panel_EditMarking" xml:space="preserve">
+    <value>更改标线排序</value>
+  </data>
+  <data name="Settings_ShortcutEditMarking" xml:space="preserve">
+    <value>更改标线排序</value>
+  </data>
+  <data name="Tool_RoadsWasChangedCaption" xml:space="preserve">
+    <value>道路被更改</value>
+  </data>
+  <data name="Tool_RoadsWasChangedMessage" xml:space="preserve">
+    <value>交叉路口的道路被更改，所以无法自动适配既存标线
+要手动适配标线吗？</value>
+  </data>
+  <data name="Tool_EndEditOrderCaption" xml:space="preserve">
+    <value>退出排序编辑模式</value>
+  </data>
+  <data name="Tool_EndEditOrderMessage" xml:space="preserve">
+    <value>确定要退出编辑模式并应用排序吗？</value>
+  </data>
+  <data name="Tool_InfoPointsDrag" xml:space="preserve">
+    <value>长按并拖移圆圈来设置节点排序</value>
+  </data>
+  <data name="Tool_InfoPointsDrop" xml:space="preserve">
+    <value>将圆圈放进或移出目标，来设置或取消节点排序</value>
+  </data>
+  <data name="StyleOption_SolidInCenter" xml:space="preserve">
+    <value>中心实线</value>
+  </data>
+  <data name="StyleOption_No" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="StyleOption_Yes" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Tool_InfoStartCreateCrosswalk" xml:space="preserve">
+    <value>按住{0}创建人行横道</value>
+  </data>
+  <data name="Tool_InfoStartCreateFiller" xml:space="preserve">
+    <value>按住{0}创建填充图案</value>
+  </data>
+  <data name="Tool_InfoStartDragPointMode" xml:space="preserve">
+    <value>按住{0}拖动来移动端点</value>
+  </data>
+  
+  <data name="MessageBox_CantUndone" xml:space="preserve">
+    <value>此操作不可撤销。</value>
+  </data>
+  <data name="LineStyle_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="Settings_ShortcutCreateEdgeLines" xml:space="preserve">
+    <value>创建新边线</value>
+  </data>
+  <data name="Panel_CreateEdgeLines" xml:space="preserve">
+    <value>创建边角线</value>
+  </data>
+  <data name="Panel_ResetOffset" xml:space="preserve">
+    <value>重置全部端点偏移</value>
+  </data>
+  <data name="Settings_QuickBorderSetup" xml:space="preserve">
+    <value>快速设置人行横道边界</value>
+  </data>
+  <data name="Settings_RailUnderMarking" xml:space="preserve">
+    <value>标线显示在轨道下方</value>
+  </data>
+  <data name="Settings_RailUnderMarkingWarning" xml:space="preserve">
+    <value>警告：此设置会改变游戏渲染顺序</value>
+  </data>
+  
+  <data name="HeaderPanel_SaveAsAsset" xml:space="preserve">
+    <value>保存为资产</value>
+  </data>
+  <data name="TemplateEditor_TemplateByAuthor" xml:space="preserve">
+    <value>{0}
+作者： {1}</value>
+  </data>
+  <data name="PresetEditor_EmptyMessage" xml:space="preserve">
+    <value>没有预设可选。
+在面板上点击 «{0}» 来创建新预设。</value>
+  </data>
+  <data name="PresetEditor_Presets" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="Panel_SaveAsPreset" xml:space="preserve">
+    <value>保存为预设</value>
+  </data>
+  <data name="Settings_ShortcutSaveAsPreset" xml:space="preserve">
+    <value>保存为预设</value>
+  </data>
+  <data name="HeaderPanel_NoPresets" xml:space="preserve">
+    <value>无预设</value>
+  </data>
+  <data name="PresetEditor_ApplyPreset" xml:space="preserve">
+    <value>应用预设</value>
+  </data>
+  <data name="Preset_NewPreset" xml:space="preserve">
+    <value>新预设</value>
+  </data>
+  <data name="Tool_EndApplyPresetOrderCaption" xml:space="preserve">
+    <value>退出预设应用模式</value>
+  </data>
+  <data name="Tool_EndApplyPresetOrderMessage" xml:space="preserve">
+    <value>要应用预设吗？</value>
+  </data>
+  <data name="TemplateEditor_Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="Settings_ApplyAfterRestart" xml:space="preserve">
+    <value>游戏重启后生效</value>
+  </data>
+  <data name="Settings_LoadMarkingAssets" xml:space="preserve">
+    <value>载入标线资产</value>
+  </data>
+  <data name="PresetInfo_Crosswalks" xml:space="preserve">
+    <value>人行横道:</value>
+  </data>
+  <data name="PresetInfo_Fillers" xml:space="preserve">
+    <value>填充图案:</value>
+  </data>
+  <data name="PresetInfo_Lines" xml:space="preserve">
+    <value>线段:</value>
+  </data>
+  <data name="PresetInfo_NoScreenshot" xml:space="preserve">
+    <value>无截图</value>
+  </data>
+  <data name="PresetInfo_RoadPoints" xml:space="preserve">
+    <value>道路 #{0} 端点：</value>
+  </data>
+  <data name="PresetInfo_Roads" xml:space="preserve">
+    <value>道路：</value>
+  </data>
+  <data name="Settings_CutLineByCrosswalk" xml:space="preserve">
+    <value>在人行横道后创建线</value>
+  </data>
+  <data name="HeaderPanel_CutLinesByCrosswalk" xml:space="preserve">
+    <value>从人行横道后生成标线</value>
+  </data>
+  <data name="Settings_BackupPresets" xml:space="preserve">
+    <value>备份预设</value>
+  </data>
+  <data name="Settings_DeletePresetsButton" xml:space="preserve">
+    <value>删除所有预设​​​​​​​​​</value>
+  </data>
+  <data name="Settings_DeletePresetsCaption" xml:space="preserve">
+    <value>删除所有预设​​​​​​​​​</value>
+  </data>
+  <data name="Settings_DeletePresetsMessage" xml:space="preserve">
+    <value>确定要删除所有预设吗?</value>
+  </data>
+  <data name="Settings_DumpPresetsButton" xml:space="preserve">
+    <value>导出预设到文件</value>
+  </data>
+  <data name="Settings_DumpPresetsCaption" xml:space="preserve">
+    <value>导出预设</value>
+  </data>
+  <data name="Settings_RestorePresetsButton" xml:space="preserve">
+    <value>从文件中恢复预设</value>
+  </data>
+  <data name="Settings_RestorePresetsCaption" xml:space="preserve">
+    <value>恢复预设</value>
+  </data>
+  <data name="Settings_RestorePresetsMessage" xml:space="preserve">
+    <value>确定要恢复预设吗?
+恢复后的数据会覆盖既存的预设。</value>
+  </data>
+  <data name="Settings_RestorePresetsMessageFailed" xml:space="preserve">
+    <value>预设恢复失败</value>
+  </data>
+  <data name="Settings_RestorePresetsMessageSuccess" xml:space="preserve">
+    <value>预设恢复成功</value>
+  </data>
+  <data name="Settings_ShortcutCutLinesByCrosswalks" xml:space="preserve">
+    <value>从人行横道后生成标线</value>
+  </data>
+  <data name="Panel_CutLinesByCrosswalks" xml:space="preserve">
+    <value>从人行横道后生成标线</value>
+  </data>
+  <data name="PresetEditor_RewriteCaption" xml:space="preserve">
+    <value>重写预设资产</value>
+  </data>
+  <data name="PresetEditor_RewriteMessage" xml:space="preserve">
+    <value>本预设是资产。需要覆写资产文件才能更改名称。要继续吗？</value>
+  </data>
+  <data name="TemplateEditor_RewriteCaption" xml:space="preserve">
+    <value>重写模板资产</value>
+  </data>
+  <data name="TemplateEditor_RewriteMessage" xml:space="preserve">
+    <value>本模板是资产。需要覆写资产文件才能更改名称。要继续吗？</value>
+  </data>
+  <data name="CrosswalkEditor_BordersWarning" xml:space="preserve">
+    <value>若要建立人行道边界，请在人行横道端点处划线</value>
+  </data>
+  <data name="LineEditor_RulesWarning" xml:space="preserve">
+    <value>若要改变线段起始点与终点并创建附加规则，另一线段必须与本线段交叉</value>
+  </data>
+  <data name="Settings_ShowPaneltips" xml:space="preserve">
+    <value>显示面板提示</value>
+  </data>
+  <data name="HeaderPanel_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="HeaderPanel_Save" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="HeaderPanel_NotSave" xml:space="preserve">
+    <value>不保存更改</value>
+  </data>
+  <data name="PresetEditor_SaveChangesMessage" xml:space="preserve">
+    <value>你想保存预设名称更改吗？</value>
+  </data>
+  <data name="TemplateEditor_SaveChanges" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="TemplateEditor_SaveChangesMessage" xml:space="preserve">
+    <value>你想保存模板参数更改吗？</value>
+  </data>
+  <data name="PresetEditor_NameExistMessage" xml:space="preserve">
+    <value>模板名称 "{0}" 已被其它预设占用。
+确定要多个预设使用这个命名吗？</value>
+  </data>
+  <data name="PresetEditor_IsAssetWarningMessage" xml:space="preserve">
+    <value>你可以从主界面内容管理器删除</value>
+  </data>
+  <data name="PresetEditor_IsWorkshopWarningMessage" xml:space="preserve">
+    <value>你无法进行编辑，仅可以从内容管理器删除或在工坊上取消订阅</value>
+  </data>
+  <data name="PresetEditor_PresetIsAsset" xml:space="preserve">
+    <value>此预设为资产</value>
+  </data>
+  <data name="TemplateEditor_IsAssetWarningMessage" xml:space="preserve">
+    <value>你可以从主界面内容管理器删除</value>
+  </data>
+  <data name="TemplateEditor_IsWorkshopWarningMessage" xml:space="preserve">
+    <value>你无法进行编辑，仅可以从内容管理器删除或在工坊上取消订阅</value>
+  </data>
+  <data name="TemplateEditor_TemplateIsAsset" xml:space="preserve">
+    <value>此模板为资产</value>
+  </data>
+  <data name="PresetEditor_DeleteCaptionDescription" xml:space="preserve">
+    <value>预设​​​​</value>
+  </data>
+  <data name="PresetEditor_DeleteMessageDescription" xml:space="preserve">
+    <value>预设​​​​</value>
+  </data>
+  
+  <data name="LineEditor_NotSupportRules" xml:space="preserve">
+    <value>此类标线不支持规则</value>
+  </data>
+  <data name="Settings_DontCutBorderByCrosswalk" xml:space="preserve">
+    <value>不要在人行道后创建线，如果人行道是标线边线</value>
+  </data>
+  <data name="Template_UnknownAuthor" xml:space="preserve">
+    <value>未知作者</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_5_1" xml:space="preserve">
+    <value>[UPDATED] 改善了加载错误弹窗信息
+[FIXED] 纠正及更新了翻译文档</value>
+  </data>
+  <data name="Mod_LoadFailedAll" xml:space="preserve">
+    <value>导入完毕，但出现了以下错误：
+全部交叉口的地标线导入失败</value>
+  </data>
+  <data name="Panel_SegmentCaption" xml:space="preserve">
+    <value>编辑段落 #{0} 的地标线</value>
+  </data>
+  <data name="FillerStyle_Grass" xml:space="preserve">
+    <value>草地</value>
+  </data>
+  <data name="FillerStyle_Pavement" xml:space="preserve">
+    <value>路肩</value>
+  </data>
+  <data name="FillerStyle_Elevation" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="LineStyle_Elevation" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="LineStyle_Grass" xml:space="preserve">
+    <value>草地</value>
+  </data>
+  <data name="LineStyle_Pavement" xml:space="preserve">
+    <value>路肩</value>
+  </data>
+  <data name="Settings_LODDistance" xml:space="preserve">
+    <value>LOD距离</value>
+  </data>
+  <data name="Tool_InfoHoverSegment" xml:space="preserve">
+    <value>段落 #{0}
+点击以编辑地标线</value>
+  </data>
+  <data name="StyleOption_FollowRails" xml:space="preserve">
+    <value>垂直于边线</value>
+  </data>
+  <data name="StyleOption_LeftRail" xml:space="preserve">
+    <value>左边界</value>
+  </data>
+  <data name="StyleOption_RightRail" xml:space="preserve">
+    <value>右边界</value>
+  </data>
+  <data name="FillerEditor_InfoSelectRailFirst" xml:space="preserve">
+    <value>选择一条边线或者边线的一个端点</value>
+  </data>
+  <data name="FillerEditor_InfoSelectRailSecond" xml:space="preserve">
+    <value>选择边线的第二个端点</value>
+  </data>
+  
+  
+  <data name="Mod_WhatsNewMessage1_6" xml:space="preserve">
+    <value>[NEW] 添加了在道路节段上创建标线的功能
+[NEW] 添加了3D填充图案：路肩及草地
+[NEW] 添加了3D线段样式：路肩
+[NEW] 添加了条纹和锯齿形填充向边线垂直的功能
+[NEW] 添加了地标线的LOD（精细模型可视距离）以提升性能。LOD距离可在设置菜单内更改
+[NEW] 添加了对机场滑行道的支持
+[FIXED] 修复了与其他mod冲突导致工具图标不显示的问题
+[FIXED] 修复了用滚轮修改数据时滚动窗口的冲突问题
+[UPDATED] 填写数字时既可使用逗号或句号为小数点</value>
+  </data>
+  <data name="StyleOption_ColorCount" xml:space="preserve">
+    <value>颜色数量：</value>
+  </data>
+  <data name="StyleOption_ColorCountOne" xml:space="preserve">
+    <value>一个</value>
+  </data>
+  <data name="StyleOption_ColorCountTwo" xml:space="preserve">
+    <value>两个</value>
+  </data>
+  <data name="Style_FromClipboard" xml:space="preserve">
+    <value>从剪贴板创建</value>
+  </data>
+  <data name="LineEditor_LineAlignment" xml:space="preserve">
+    <value>线段对齐</value>
+  </data>
+  <data name="PointEditor_SplitIntoTwo" xml:space="preserve">
+    <value>拆分成两个点</value>
+  </data>
+  <data name="PointEditor_SplitOffset" xml:space="preserve">
+    <value>拆分偏移</value>
+  </data>
+  <data name="Settings_GroupPoints" xml:space="preserve">
+    <value>端点整合成组</value>
+  </data>
+  <data name="Settings_ShortcutApplyBetweenIntersections" xml:space="preserve">
+    <value>应用在两个路口之间</value>
+  </data>
+  <data name="Panel_ApplyBetweenIntersections" xml:space="preserve">
+    <value>应用在两个路口之间</value>
+  </data>
+  <data name="Panel_ApplyWholeStreet" xml:space="preserve">
+    <value>应用到整条街</value>
+  </data>
+  <data name="Settings_ShortcutApplyWholeStreet" xml:space="preserve">
+    <value>应用到整条街</value>
+  </data>
+  <data name="MessageBox_ItWillReplace" xml:space="preserve">
+    <value>粘贴后会清除既存的地标线。</value>
+  </data>
+  <data name="Tool_ApplyBetweenIntersectionsCaption" xml:space="preserve">
+    <value>将标线应用在两个路口之间的所有道路上</value>
+  </data>
+  <data name="Tool_ApplyBetweenIntersectionsMessage" xml:space="preserve">
+    <value>确定要在路口之间应用标线吗？</value>
+  </data>
+  <data name="Tool_ApplyWholeStreetCaption" xml:space="preserve">
+    <value>将标线应用到整条街道</value>
+  </data>
+  <data name="Tool_ApplyWholeStreetMessage" xml:space="preserve">
+    <value>确定要在 "{0}" 整条路上应用标线吗?</value>
+  </data>
+  <data name="Tool_InfoSelectLineEndPointNormal" xml:space="preserve">
+    <value>拖选到端点后来创建垂直线</value>
+  </data>
+  <data name="Tool_InfoSelectLineEndPointStop" xml:space="preserve">
+    <value>点选终点来创建一般线或停止线</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_7" xml:space="preserve">
+    <value>[NEW] 全新节点/段落选择模式。选择节点/段落时，高亮地区会遵循节点/段落的实际形状，以避免密集地区无法精准点选的情况
+[NEW] 现在创建填充图案时会自动创建边线，无需创建图案前先画好标线
+[NEW] 添加了把端点分割成两个端点的功能，还可更改分割偏移及对齐方向。现在可以用两根单线延续道路上的双线
+[NEW] 添加了样式修饰键“从剪贴板粘贴”：按住Ctrl+Alt可从剪贴板应用标线，规则，人行道或填充图案样式
+[NEW] 添加了将段落标线及图案应用在两个路口之间或整条大道的功能
+[NEW] 添加了可以给单斑马线或双斑马线添加第二种颜色的功能
+[UPDATED] 更改了Esc键属性 - 更加符合游戏内工具默认行为。在编辑时按下Esc会弹出提示是否关闭工具，不会突然关闭工具造成数据流失
+[NEW] 添加了按照道路给端点分组的功能（设置中可关闭）
+[FIXED] 修复了高架道路上的端点捕捉位置
+[FIXED] 修复了3D填充图案计算方式
+[FIXED] 修复了会导致工具卡住的复制/粘贴模式错误
+[FIXED] 修复了更改面板大小后的滚动条位置
+[UPDATED] 修复了按住shift同时用滚轮改变参数时误激活人行道模式的错误
+[NEW] 现可双击改变面板大小按钮来恢复默认大小</value>
+  </data>
+  <data name="LineEditor_LineEndAlignment" xml:space="preserve">
+    <value>线段终点对齐</value>
+  </data>
+  <data name="LineEditor_LineStartAlignment" xml:space="preserve">
+    <value>线段起点对齐</value>
+  </data>
+  
+  <data name="Mod_WhatsNewMessage1_7_2" xml:space="preserve">
+    <value>[FIXED] 修复了在可用地图区域格块外的3D填充高度
+[FIXED] 修复了按钮重复的问题</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_7_3" xml:space="preserve">
+    <value>[NEW] 添加了必要项缺失检查
+[FIXED] 修复了可用区块外节点3D填充的高度</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_7_4" xml:space="preserve">
+    <value>[FIXED] 修复了预设缩略图的存读问题
+[FIXED] 修复了带有标线的节点在加载后出现的形状错误
+[TRANSLATION] 添加了印尼语翻译</value>
+  </data>
+  <data name="Settings_HideStreetName" xml:space="preserve">
+    <value>使用工具时隐藏路名</value>
+  </data>
+  <data name="LineStyle_StopPavement" xml:space="preserve">
+    <value>路肩</value>
+  </data>
+  <data name="Tool_InfoSelectCrosswalk" xml:space="preserve">
+    <value>按住{0}点击来选中人行横道</value>
+  </data>
+  <data name="Tool_InfoSelectLine" xml:space="preserve">
+    <value>按住{0}点击来选中线</value>
+  </data>
+  <data name="FillerStyle_Gravel" xml:space="preserve">
+    <value>砂砾</value>
+  </data>
+  <data name="FillerStyle_Cliff" xml:space="preserve">
+    <value>悬崖</value>
+  </data>
+  <data name="FillerStyle_Ruined" xml:space="preserve">
+    <value>砂石</value>
+  </data>
+  <data name="StyleOption_LineOffset" xml:space="preserve">
+    <value>从边线回缩</value>
+  </data>
+  <data name="FillerStyle_CornerRadius" xml:space="preserve">
+    <value>拐角半径</value>
+  </data>
+  <data name="FillerStyle_MedianCornerRadius" xml:space="preserve">
+    <value>隔离带拐角半径</value>
+  </data>
+  <data name="FillerStyle_CurbSize" xml:space="preserve">
+    <value>路肩大小</value>
+  </data>
+  <data name="FillerStyle_MedianCurbSize" xml:space="preserve">
+    <value>隔离带路肩大小</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_8" xml:space="preserve">
+    <value>[NEW] 如同 MoveIt模组，添加了跳跃选择被覆盖住节点功能。Ctrl+空格键以跳跃选择。按键可以自定义。
+[NEW] 新加入了路肩3D填充
+[NEW] 新增了3D填充圆角选项
+[NEW] 新增了3D填充从边线偏移的选项
+[NEW] 新增了填充选项：砂砾，砂石和悬崖
+[NEW] 新增了路面停止线选项
+[NEW] 新增了实体填充遵循引导线的选项。现可以在斜坡上创建实体填充。
+[NEW] 新增了按下ctrl来选中线或人行横道
+[NEW] 新增了对Linux用户的警告
+[NEW] 新增了使用滚轮改变样式的功能
+[NEW] 新增了使用mod时隐藏路名的功能。可以在选项里更改。
+[NEW] 新增UnifiedUI按钮图标
+[FIXED] 修复了选择模版图标</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_8_1" xml:space="preserve">
+    <value>[UPDATED] 粘贴模式按钮移至圆圈以外
+[TRANSLATION] 添加了韩语翻译</value>
+  </data>
+  <data name="HeaderPanel_Discard" xml:space="preserve">
+    <value>不保存</value>
+  </data>
+  <data name="Mod_WhatsNewMessage1_8_2" xml:space="preserve">
+    <value>[NEW] 添加了创建样本/预设后的取消按钮
+[NEW] 工具提示加入了彩色文字
+[NEW] 使用UnifiedUI mod的话加入了隐藏原mod按钮的功能
+[FIXED] 修复了项目移除后不会从列表中消失的问题
+[FIXED] 修复了线段分组
+[TRANSLATION] 新增了土耳其语翻译</value>
+  </data>
+  <data name="Settings_Sortings" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="Settings_SortPresetType" xml:space="preserve">
+    <value>排序预设：</value>
+  </data>
+  <data name="Settings_SortPresetByNames" xml:space="preserve">
+    <value>按名称</value>
+  </data>
+  <data name="Settings_SortPresetByRoadCount" xml:space="preserve">
+    <value>按道路计数，再按名称</value>
+  </data>
+  <data name="Settings_SortTemplateByAuthor" xml:space="preserve">
+    <value>按作者名称，再按类别，再按名称</value>
+  </data>
+  <data name="Settings_SortTemplateByNames" xml:space="preserve">
+    <value>按名称，再按类别</value>
+  </data>
+  <data name="Settings_SortTemplateByType" xml:space="preserve">
+    <value>按类别，再按名称</value>
+  </data>
+  <data name="Settings_SortTemplateType" xml:space="preserve">
+    <value>模版排序</value>
+  </data>
+  <data name="Settings_SortApplyByAuthor" xml:space="preserve">
+    <value>按作者名称，再按类别，再按名称</value>
+  </data>
+  <data name="Settings_SortApplyByNames" xml:space="preserve">
+    <value>按名称，再按类别</value>
+  </data>
+  <data name="Settings_SortApplyByType" xml:space="preserve">
+    <value>按类别，再按名称</value>
+  </data>
+  <data name="Settings_SortApplyDefaultFirst" xml:space="preserve">
+    <value>默认模版总是显示在列表顶上</value>
+  </data>
+  <data name="Settings_SortApplyType" xml:space="preserve">
+    <value>将应用列表中的模版排序</value>
+  </data>
+  <data name="Settings_IlluminationAtNight" xml:space="preserve">
+    <value>夜间标线发光</value>
+  </data>
+  <data name="Settings_IlluminationIntensity" xml:space="preserve">
+    <value>发光强度</value>
+  </data>
+  <data name="Settings_Gameplay" xml:space="preserve">
+    <value>游戏设置</value>
+  </data>
+  <data name="Settings_GroupPresets" xml:space="preserve">
+    <value>将预设分组</value>
+  </data>
+  <data name="PresetEditor_PresetFit_Close" xml:space="preserve">
+    <value>紧密配合</value>
+  </data>
+  <data name="PresetEditor_PresetFit_Perfect" xml:space="preserve">
+    <value>完美符合</value>
+  </data>
+  <data name="PresetEditor_PresetFit_Poor" xml:space="preserve">
+    <value>欠佳符合</value>
+  </data>
+  <data name="PresetEditor_PresetFit_Possible" xml:space="preserve">
+    <value>可能符合</value>
+  </data>
+  <data name="Settings_LevelCrossingUnderMarking" xml:space="preserve">
+    <value>在平交道下显示标线</value>
+  </data>
+  <data name="StyleOption_GapLength" xml:space="preserve">
+    <value>间隔长度</value>
+  </data>
+  <data name="StyleOption_GapPeriod" xml:space="preserve">
+    <value>间隔区间</value>
+  </data>
+  <data name="StyleOption_UseGap" xml:space="preserve">
+    <value>使用间隔</value>
+  </data>
+  <data name="PointEditor_RevertOffsets" xml:space="preserve">
+    <value>重置偏移</value>
+  </data>
+  <data name="PointEditor_SaveOffsets" xml:space="preserve">
+    <value>保存偏移</value>
+  </data>
+  <data name="PointEditor_RoadName" xml:space="preserve">
+    <value>道路名称</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</root>

@@ -1,0 +1,86 @@
+<WG_CitizenEdit version="2">
+  <travel>
+  <low_density>
+    <low_wealth>
+      <Child car="0" bike="40" taxi="0" />
+      <Teen car="5" bike="30" taxi="2" />
+      <Young car="15" bike="20" taxi="2" />
+      <Adult car="20" bike="10" taxi="4" />
+      <Senior car="10" bike="0" taxi="6" />
+    </low_wealth>
+    <med_wealth>
+      <Child car="0" bike="40" taxi="0" />
+      <Teen car="5" bike="30" taxi="2" />
+      <Young car="15" bike="20" taxi="2" />
+      <Adult car="20" bike="10" taxi="4" />
+      <Senior car="10" bike="0" taxi="6" />
+    </med_wealth>
+    <high_wealth>
+      <Child car="0" bike="40" taxi="0" />
+      <Teen car="5" bike="30" taxi="2" />
+      <Young car="15" bike="20" taxi="2" />
+      <Adult car="20" bike="10" taxi="4" />
+      <Senior car="10" bike="0" taxi="6" />
+    </high_wealth>
+  </low_density>
+  <high_density>
+    <low_wealth>
+      <Child car="0" bike="40" taxi="0" />
+      <Teen car="5" bike="30" taxi="2" />
+      <Young car="15" bike="20" taxi="2" />
+      <Adult car="20" bike="10" taxi="4" />
+      <Senior car="10" bike="0" taxi="6" />
+    </low_wealth>
+    <med_wealth>
+      <Child car="0" bike="40" taxi="0" />
+      <Teen car="5" bike="30" taxi="2" />
+      <Young car="15" bike="20" taxi="2" />
+      <Adult car="20" bike="10" taxi="4" />
+      <Senior car="10" bike="0" taxi="6" />
+    </med_wealth>
+    <high_wealth>
+      <Child car="0" bike="40" taxi="0" />
+      <Teen car="5" bike="30" taxi="2" />
+      <Young car="15" bike="20" taxi="2" />
+      <Adult car="20" bike="10" taxi="4" />
+      <Senior car="10" bike="0" taxi="6" />
+    </high_wealth>
+  </high_density>
+  </travel>
+  <!--Lower age value: Young adult (45), Adult (90), Senior (180)-->
+  <!--Numbers lower than young adult may cause economic havoc.-->
+  <migrate>
+    <single_adult min="90" max="105" />
+    <family_adult min="90" max="105" />
+  </migrate>
+  <lifespan modifier="1">
+    <!--Percentage of people who survive to the next 10% of their life-->
+    <survival>
+      <decile_1 survival="100" />
+      <decile_2 survival="100" />
+      <decile_3 survival="100" />
+      <decile_4 survival="100" />
+      <decile_5 survival="100" />
+      <decile_6 survival="100" />
+      <decile_7 survival="100" />
+      <decile_8 survival="100" />
+      <decile_9 survival="100" />
+      <decile_10 survival="100" />
+    </survival>
+    <!--Percentage of people who become sick over the next 10% of their life-->
+    <sickness>
+      <decile_1 chance="0" />
+      <decile_2 chance="0" />
+      <decile_3 chance="0" />
+      <decile_4 chance="0" />
+      <decile_5 chance="0" />
+      <decile_6 chance="0" />
+      <decile_7 chance="0" />
+      <decile_8 chance="0" />
+      <decile_9 chance="0" />
+      <decile_10 chance="0" />
+    </sickness>
+    <!--Percentage of dead who will instantly disappear-->
+    <cheatHearse chance="50" />
+  </lifespan>
+</WG_CitizenEdit>
